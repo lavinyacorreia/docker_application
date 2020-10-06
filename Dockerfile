@@ -1,3 +1,4 @@
 FROM php:7.0-apache
-COPY src/ /var/www/html
+COPY entrypoint.sh /  
+ENTRYPOINT entrypoint.sh
 EXPOSE 80
