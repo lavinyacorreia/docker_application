@@ -1,7 +1,5 @@
-
 #!/bin/bash
-
-while true; do
-curl
-http://docker_application
-done
+echo "PLEASE WAIT..."
+sleep 10
+echo "STARTING AUTOMATION TESTING"
+exec "$@"
