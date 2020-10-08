@@ -1,5 +1,6 @@
 #!/bin/bash
-echo "PLEASE WAIT..."
-sleep 10
-echo "STARTING AUTOMATION TESTING"
-exec "$@"
+
+while true; do
+curl -data "text=Hello" http://docker_application
+done
+
